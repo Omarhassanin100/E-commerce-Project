@@ -1,0 +1,40 @@
+.productParent{
+    position: relative !important;
+    z-index: 100 !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+    -webkit-transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+    -moz-transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+    -ms-transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+    -o-transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+     margin:20px !important;
+} 
+.productParent:hover{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5) !important;
+    transform: translateY(-10px); 
+}
+.cardImg{
+    width:100% !important;
+    height:150px !important;
+}
+.cardPrice{
+    color:#038edc;
+}
+.cardDescount{
+    text-decoration:line-through;
+    color:gray;
+}
+.cardButtons{
+    margin-left:5px;
+    margin-right:5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+.cardInput{
+    padding:5px;
+    margin-left:5px;
+    margin-right:5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    width:20%;
+    border:none;
+    border-radius:10px;
+    outline:none;
+}

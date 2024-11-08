@@ -1,0 +1,65 @@
+.top-bar{
+position: fixed;
+width: calc(100% - 190px);
+height: 70px;
+top: 0;
+left: 190px;
+background-color: white;
+box-shadow: 0 0 4px 0 rgba(0 , 0, 0, 0.2);
+z-index: 2;
+padding: 0 20px;
+}
+.top-bar-isOpen{
+position: fixed;
+width: calc(100% - 60px);
+height: 70px;
+top: 0;
+left: 60px;
+background-color: white;
+box-shadow: 0 0 4px 0 rgba(0 , 0, 0, 0.2);
+z-index: 2;
+padding: 0 20px;
+
+}
+.top-bar-isClose{
+    position: fixed;
+width:100%;
+height: 70px;
+top: 0;
+left: 0;
+background-color: white;
+box-shadow: 0 0 4px 0 rgba(0 , 0, 0, 0.2);
+z-index: 2;
+padding: 0 20px;
+}
+.side-bar{
+width: 220px;
+height: 100vh;
+top: 0;
+left: 0;
+background-color: white;
+box-shadow: 0 0 4px 0 rgba(0 , 0, 0, 0.2);
+box-shadow: 0 0 0 1px rgba(0 , 0, 0, 0.1 );
+z-index: 1;
+padding: 5px 0;
+}
+
+.side-bar-link{
+    font-size: 25px;
+    font-weight: bold;
+    color: #495057;
+    text-decoration: none   ;
+    padding: 10px 3px;
+    margin: 5px ;
+    border-radius: 6px;
+}
+.side-bar-link:hover{
+color: black;
+}
+.side-bar .active{
+    background-color: #f2f3fe;
+    color: #038edc;
+}
+.side-bar .active:hover{
+    color: #038edc;
+}

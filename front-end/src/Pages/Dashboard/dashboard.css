@@ -1,0 +1,28 @@
+.dashboard{
+    min-height: 100vh;
+    background-color: #f7f8fa;
+}
+/* .usersopen{
+    position: fixed;
+    top: 80px ;
+    left: 230px;
+    width: 100%;
+}
+.usersoff{
+    position: fixed;
+    left: 60px;
+    top: 80px ;
+    width: 100%;
+}
+.usersoffsm{
+    position: fixed;
+    left: 10px;
+    top: 80px ;
+    width: 100%;
+}
+.usersopensm{
+    position: relative;
+    left: 60px;
+    top: 80px ;
+    width: 100%;
+} */

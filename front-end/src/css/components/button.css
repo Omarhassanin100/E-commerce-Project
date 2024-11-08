@@ -1,0 +1,19 @@
+.btn-parent{
+    margin-left: 70px !important;
+}
+.btno {
+background-color: white;
+padding: 10px 30px;
+border: none;
+outline: none;
+border-radius: 8px;
+}
+.btno-primary {
+
+    background-color: rgb(54, 128, 54);
+    color: white;
+    width: 50%;
+    font-size: 20px;
+    height: 55px;
+    cursor: pointer;
+}
